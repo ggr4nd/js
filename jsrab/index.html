@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>MyProgect</title>
+  </head>
+  <body>
+
+    <a href="#" class="btnUP">Зарегистрироваться</a> 
+    <br>
+    <br>
+    
+    <div class = "SUP">
+      <h1>Зарегистрироваться</h1>
+      <form action="">
+      <label for="logup">Login</label>
+      <input type="text" id="logup" required placeholder="Enter login.." pattern="[^ а-яёА-ЯЁ]+">
+      <br>
+      <label for="passup">Password</label>
+      <input type="password" id="passup" required placeholder="Enter password.." pattern="[^ а-яёА-ЯЁ]+">
+      <br>
+      <label for="emailup">Email</label>
+      <input type="text" id="emailup" required placeholder="Enter email.." pattern="[^ а-яёА-ЯЁ]+">
+      <br>
+
+      <input id ="butUP" type="button" value="Sign up" class="butt">
+      <input type="reset" value="Cancel">
+    </div>
+  </form>
+    <br>
+    <br>
+
+    <a href="#" class="btnlog">Войти по своему логину</a> 
+    <br>
+    <br>
+    <div class="blform">
+     <h1>Авторизация</h1>
+      <form action="">
+        <div class = "SIG">
+          <label for="frmlog">Login</label>
+          <input type="text" id="frmlog" required placeholder="Enter login.." pattern="[^ а-яёА-ЯЁ]+">
+          <br>
+          <label for="frmlog">Password</label>
+          <input type="password" id="frmpass" required placeholder="Enter password.." pattern="[^ а-яёА-ЯЁ]+">
+          <br>
+          <input id ="btnLOGIN" type="button" value="Log in" class="but">
+          <input type="reset" value="Cancel">
+        </div>
+
+        
+      </form>
+    </div>
+    <!-- Блок для вывода контента -->
+    <div class="content"></div>
+
+    <script src="script.js?v=1"></script>
+  </body>
+</html>
